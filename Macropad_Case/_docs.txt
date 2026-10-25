@@ -1,0 +1,34 @@
+specs:
+  - enough to get tolerance data and package the PCB (at least in part)
+
+---------------------------------------------
+design desisions:
+  - Open top:
+    a top plate would ideally hold the switches and cover the components.
+    however, the plate is part of the beauty, infact you could have it with a clear bottom to see the inside, also this version of the design does not have 'fragile' components per say.
+
+    this, paired with the ease to trouble shoot and the 'minimal industrial' design made me go for the open top.
+
+    the orientation allows you to use it however you wish to. pick a side and use it.
+
+  - Open botom:
+    included a design that leaves the bottom open to still view the internals.
+    it alsto has an edge to mount a clear film or acrylic sheet if you want to (protect the inside and prevent snagging onto fabric while in your bag)
+  
+  - Battery situation:
+    this design, as mentioned before, assumes you have already managed power and will use JST connector as an alternative to USB power.
+    my assumption in this one is the use of sth like the 'pouch-style' batteries you get in old phones and dumbphones and wedge that in the space under the board.
+    
+    it, however does not yet, account for any other cell form factor withing the enclosure; which is weird for a bluetooth macropad. I'll change this in the next iteration. cylindrical 18650 cells or even double AAs might do. 
+    Idk 
+
+  - Tilt:
+    this version doesn't have a tilt to it, might add that later but the plan was to sit as low as possible while still using cherry MX switches
+
+
+
+---------------------------------------------
+later:
+  - use lower profile rotary encoder and mount the esp32 lower, under or just build into the PCB
+  - account better for possible battery attachment.
+  - heatsink brass insert placement consideration.
