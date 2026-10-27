@@ -1,0 +1,36 @@
+Geting from design to board using a cnc mill:
+
+note:
+  - this process is on FR-1 copper clad boards (way more forgiving for milling)
+---------------------------------------------
+Software used:
+  - KiCAD; design
+  - ~; toolpath generation
+  - Candle; CNC control *
+
+
+
+---------------------------------------------
+~
+role: converting gerber data into movements the cnc can understand.
+
+
+
+---------------------------------------------
+CANDLE
+role: all matters cnc control and calibration
+
+where I downloaded mine:
+  https://sourceforge.net/projects/candle.mirror/
+
+note:
+  - there are other alternatives, though this is what I chose to go with;
+    features, simplicity and intuitive UI.
+
+it's the better maintained option as of doing this project; October2026.
+alternative:
+  - CNCjs; web based cnc controller
+
+
+Procedure:
+1. Uploading files

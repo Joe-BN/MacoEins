@@ -1,0 +1,4 @@
+documentation describing how to go from PCB to board.
+what I'll cover:
+  - cnc milling
+  ~ ordering from a manufacturer
